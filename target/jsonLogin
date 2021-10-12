@@ -1,0 +1,46 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-11T11:30:26.311Z",
+        "line": 4,
+        "name": "User logins with valid credentials",
+        "description": "",
+        "id": "test-the-login-functionality-of-sbn.;user-logins-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7975900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user gives the \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.sbnSteps.user_gives_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functionality of SBN.",
+    "description": "",
+    "id": "test-the-login-functionality-of-sbn.",
+    "keyword": "Feature",
+    "uri": "file:Features/loginSBN.feature",
+    "tags": []
+  }
+]
